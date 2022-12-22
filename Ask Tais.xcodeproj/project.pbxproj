@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA450ABF2954948D005414D6 /* Ask_TaisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA450ABE2954948D005414D6 /* Ask_TaisApp.swift */; };
+		EA450AC12954948D005414D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA450AC02954948D005414D6 /* ContentView.swift */; };
+		EA450AC32954948E005414D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA450AC22954948E005414D6 /* Assets.xcassets */; };
+		EA450AC62954948E005414D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA450AC52954948E005414D6 /* Preview Assets.xcassets */; };
+		EA450AD02954948E005414D6 /* Ask_TaisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA450ACF2954948E005414D6 /* Ask_TaisTests.swift */; };
+		EA450ADA2954948E005414D6 /* Ask_TaisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA450AD92954948E005414D6 /* Ask_TaisUITests.swift */; };
+		EA450ADC2954948E005414D6 /* Ask_TaisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA450ADB2954948E005414D6 /* Ask_TaisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA450ACC2954948E005414D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA450AB32954948D005414D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA450ABA2954948D005414D6;
+			remoteInfo = "Ask Tais";
+		};
+		EA450AD62954948E005414D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA450AB32954948D005414D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA450ABA2954948D005414D6;
+			remoteInfo = "Ask Tais";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA450ABB2954948D005414D6 /* Ask Tais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ask Tais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA450ABE2954948D005414D6 /* Ask_TaisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask_TaisApp.swift; sourceTree = "<group>"; };
+		EA450AC02954948D005414D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA450AC22954948E005414D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA450AC52954948E005414D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA450ACB2954948E005414D6 /* Ask TaisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ask TaisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA450ACF2954948E005414D6 /* Ask_TaisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask_TaisTests.swift; sourceTree = "<group>"; };
+		EA450AD52954948E005414D6 /* Ask TaisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ask TaisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA450AD92954948E005414D6 /* Ask_TaisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask_TaisUITests.swift; sourceTree = "<group>"; };
+		EA450ADB2954948E005414D6 /* Ask_TaisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask_TaisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA450AB82954948D005414D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AC82954948E005414D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AD22954948E005414D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA450AB22954948D005414D6 = {
+			isa = PBXGroup;
+			children = (
+				EA450ABD2954948D005414D6 /* Ask Tais */,
+				EA450ACE2954948E005414D6 /* Ask TaisTests */,
+				EA450AD82954948E005414D6 /* Ask TaisUITests */,
+				EA450ABC2954948D005414D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA450ABC2954948D005414D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA450ABB2954948D005414D6 /* Ask Tais.app */,
+				EA450ACB2954948E005414D6 /* Ask TaisTests.xctest */,
+				EA450AD52954948E005414D6 /* Ask TaisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA450ABD2954948D005414D6 /* Ask Tais */ = {
+			isa = PBXGroup;
+			children = (
+				EA450ABE2954948D005414D6 /* Ask_TaisApp.swift */,
+				EA450AC02954948D005414D6 /* ContentView.swift */,
+				EA450AC22954948E005414D6 /* Assets.xcassets */,
+				EA450AC42954948E005414D6 /* Preview Content */,
+			);
+			path = "Ask Tais";
+			sourceTree = "<group>";
+		};
+		EA450AC42954948E005414D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA450AC52954948E005414D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA450ACE2954948E005414D6 /* Ask TaisTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA450ACF2954948E005414D6 /* Ask_TaisTests.swift */,
+			);
+			path = "Ask TaisTests";
+			sourceTree = "<group>";
+		};
+		EA450AD82954948E005414D6 /* Ask TaisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA450AD92954948E005414D6 /* Ask_TaisUITests.swift */,
+				EA450ADB2954948E005414D6 /* Ask_TaisUITestsLaunchTests.swift */,
+			);
+			path = "Ask TaisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA450ABA2954948D005414D6 /* Ask Tais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA450ADF2954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask Tais" */;
+			buildPhases = (
+				EA450AB72954948D005414D6 /* Sources */,
+				EA450AB82954948D005414D6 /* Frameworks */,
+				EA450AB92954948D005414D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ask Tais";
+			productName = "Ask Tais";
+			productReference = EA450ABB2954948D005414D6 /* Ask Tais.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA450ACA2954948E005414D6 /* Ask TaisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA450AE22954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask TaisTests" */;
+			buildPhases = (
+				EA450AC72954948E005414D6 /* Sources */,
+				EA450AC82954948E005414D6 /* Frameworks */,
+				EA450AC92954948E005414D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA450ACD2954948E005414D6 /* PBXTargetDependency */,
+			);
+			name = "Ask TaisTests";
+			productName = "Ask TaisTests";
+			productReference = EA450ACB2954948E005414D6 /* Ask TaisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA450AD42954948E005414D6 /* Ask TaisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA450AE52954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask TaisUITests" */;
+			buildPhases = (
+				EA450AD12954948E005414D6 /* Sources */,
+				EA450AD22954948E005414D6 /* Frameworks */,
+				EA450AD32954948E005414D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA450AD72954948E005414D6 /* PBXTargetDependency */,
+			);
+			name = "Ask TaisUITests";
+			productName = "Ask TaisUITests";
+			productReference = EA450AD52954948E005414D6 /* Ask TaisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA450AB32954948D005414D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EA450ABA2954948D005414D6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EA450ACA2954948E005414D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EA450ABA2954948D005414D6;
+					};
+					EA450AD42954948E005414D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EA450ABA2954948D005414D6;
+					};
+				};
+			};
+			buildConfigurationList = EA450AB62954948D005414D6 /* Build configuration list for PBXProject "Ask Tais" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA450AB22954948D005414D6;
+			productRefGroup = EA450ABC2954948D005414D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA450ABA2954948D005414D6 /* Ask Tais */,
+				EA450ACA2954948E005414D6 /* Ask TaisTests */,
+				EA450AD42954948E005414D6 /* Ask TaisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA450AB92954948D005414D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA450AC62954948E005414D6 /* Preview Assets.xcassets in Resources */,
+				EA450AC32954948E005414D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AC92954948E005414D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AD32954948E005414D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA450AB72954948D005414D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA450AC12954948D005414D6 /* ContentView.swift in Sources */,
+				EA450ABF2954948D005414D6 /* Ask_TaisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AC72954948E005414D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA450AD02954948E005414D6 /* Ask_TaisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA450AD12954948E005414D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA450ADC2954948E005414D6 /* Ask_TaisUITestsLaunchTests.swift in Sources */,
+				EA450ADA2954948E005414D6 /* Ask_TaisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA450ACD2954948E005414D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA450ABA2954948D005414D6 /* Ask Tais */;
+			targetProxy = EA450ACC2954948E005414D6 /* PBXContainerItemProxy */;
+		};
+		EA450AD72954948E005414D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA450ABA2954948D005414D6 /* Ask Tais */;
+			targetProxy = EA450AD62954948E005414D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA450ADD2954948E005414D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA450ADE2954948E005414D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA450AE02954948E005414D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ask Tais/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-Tais";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA450AE12954948E005414D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ask Tais/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-Tais";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA450AE32954948E005414D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-TaisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ask Tais.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ask Tais";
+			};
+			name = Debug;
+		};
+		EA450AE42954948E005414D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-TaisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ask Tais.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ask Tais";
+			};
+			name = Release;
+		};
+		EA450AE62954948E005414D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-TaisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ask Tais";
+			};
+			name = Debug;
+		};
+		EA450AE72954948E005414D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BFCT5YC6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "woyago.Ask-TaisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ask Tais";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA450AB62954948D005414D6 /* Build configuration list for PBXProject "Ask Tais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA450ADD2954948E005414D6 /* Debug */,
+				EA450ADE2954948E005414D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA450ADF2954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask Tais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA450AE02954948E005414D6 /* Debug */,
+				EA450AE12954948E005414D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA450AE22954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask TaisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA450AE32954948E005414D6 /* Debug */,
+				EA450AE42954948E005414D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA450AE52954948E005414D6 /* Build configuration list for PBXNativeTarget "Ask TaisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA450AE62954948E005414D6 /* Debug */,
+				EA450AE72954948E005414D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA450AB32954948D005414D6 /* Project object */;
+}
